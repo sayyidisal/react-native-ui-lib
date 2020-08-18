@@ -40,6 +40,10 @@ export declare type ButtonPropTypes = TouchableOpacityProps & TypographyModifier
      */
     backgroundColor?: string;
     /**
+     * Color of the disabled button background
+     */
+    disabledBackgroundColor?: string;
+    /**
      * Size of the button [large, medium, small, xSmall]
      */
     size?: ButtonSize;
@@ -364,6 +368,10 @@ declare const _default: React.ComponentClass<(import("react-native").TouchableOp
      */
     backgroundColor?: string | undefined;
     /**
+     * Color of the disabled button background
+     */
+    disabledBackgroundColor?: string | undefined;
+    /**
      * Size of the button [large, medium, small, xSmall]
      */
     size?: ButtonSize | undefined;
@@ -510,6 +518,10 @@ declare const _default: React.ComponentClass<(import("react-native").TouchableOp
      * Color of the button background
      */
     backgroundColor?: string | undefined;
+    /**
+     * Color of the disabled button background
+     */
+    disabledBackgroundColor?: string | undefined;
     /**
      * Size of the button [large, medium, small, xSmall]
      */
@@ -658,6 +670,10 @@ declare const _default: React.ComponentClass<(import("react-native").TouchableOp
      */
     backgroundColor?: string | undefined;
     /**
+     * Color of the disabled button background
+     */
+    disabledBackgroundColor?: string | undefined;
+    /**
      * Size of the button [large, medium, small, xSmall]
      */
     size?: ButtonSize | undefined;
@@ -804,6 +820,10 @@ declare const _default: React.ComponentClass<(import("react-native").TouchableOp
      * Color of the button background
      */
     backgroundColor?: string | undefined;
+    /**
+     * Color of the disabled button background
+     */
+    disabledBackgroundColor?: string | undefined;
     /**
      * Size of the button [large, medium, small, xSmall]
      */
